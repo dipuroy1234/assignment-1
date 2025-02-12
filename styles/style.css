@@ -134,3 +134,106 @@ Testimonial Styles */
     color: #777;
     margin-top: -15px;
 }
+
+/* Recent News Styles */
+
+.news-section{
+    width: 90%;
+    margin: 50px auto;
+    text-align: left;
+    font-size: 16px;
+}
+.headline{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.headline-2{
+    font-size: 28px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.description ,.date{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.logo {
+    width: 120px;  
+    height: auto;  
+    display: block;
+    margin-bottom: 12px;
+    margin-top: -15px;  
+}
+
+.news-card{
+    display: flex;
+    background: white;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+    align-items: left;
+}
+.img{
+    width: 300px;
+    padding: 15px;
+    height: auto;
+    border-radius: 30px;
+}
+
+   /* Container Styles  */
+
+   .container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width:89%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+}
+.bt {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background: white;
+    border: 2px solid #ddd;
+}
+.bt.selected {
+    background: #c6e6d5;
+    border: 2px solid #90c6a7;
+}
+.input-box {
+    width: 75%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin:20px auto;
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+   
+   
+}
+.donate-btn {
+    margin-top: 15px;
+    margin: 20px auto;
+    background: #0a6d47;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    display: block;
+   
+}
